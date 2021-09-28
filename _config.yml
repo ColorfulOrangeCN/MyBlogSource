@@ -123,3 +123,13 @@ theme_config:
     min2read: true          # 单篇 阅读时长
     totalcount: false       # 网站 字数统计
     separated_meta: true
+  math:
+    enable: true
+    per_page: true
+    mathjax:
+      enable: true
+      mhchem: false
+    katex:
+      enable: false
+      copy_tex: false
+
