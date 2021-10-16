@@ -1,5 +1,38 @@
+---
+title: 板子与头文件
+shortlink: header
+date: 2021-10-10 21:36:32
+tags: template
+mathjax: false
+---
 # 板子与头文件
-
+<!--more-->
+## basis
+```cpp
+/*
+Author: $%U%$
+Used in Codeforces
+Released under MIT License.
+*/
+#include <iostream>
+#include <algorithm>
+#include <string>
+#include <vector>
+#include <map>
+using namespace std;
+inline namespace fopti {
+  template<typename T, typename P> inline
+  T& maximize(T &l, const P& r) {return l < r ? l = r : l;}
+  template<typename T, typename P> inline
+  T& minimize(T &l, const P& r) {return l > r ? l = r : l;}
+}
+int32_t main() {
+  ios::sync_with_stdio(false);
+  cin.tie(0);
+  
+  return 0;
+}
+```
 ## ranges
 ```cpp
 #include <utility>
