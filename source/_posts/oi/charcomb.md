@@ -8,7 +8,7 @@ mathjax: true
 
 ## 组合类
 
-组合类是代数结构 $\mathcal{C}=(\mathcal{S}, f)$ 其中 $f$ 是 $\mathcal{S}\rarr \mathbb{N}$ 的一个大小函数。
+组合类是代数结构 $\mathcal{C}=(\mathcal{S}, f)$ 其中 $f$ 是 $\mathcal{S}\rightarrow \mathbb{N}$ 的一个大小函数。
 
 <!--more-->
 对于组合类我们定义其的和与直积：

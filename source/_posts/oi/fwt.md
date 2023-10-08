@@ -1,6 +1,7 @@
 ---
 title: FWT变换
 shortlink: fwt
+date: 2022-12
 tags: math
 mathjax: true
 ---
