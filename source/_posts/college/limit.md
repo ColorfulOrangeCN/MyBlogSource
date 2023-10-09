@@ -31,16 +31,16 @@ $$
 
 泰勒展开也巨慢了，还容易错，下面是些结论。
 
-- $o(1-\cos{x}) = \cfrac{x^2}2$
+- $\omega(1-\cos{x}) = \cfrac{x^2}2$
 
-- $o((1+x)^r-1) = rx$
+- $\omega((1+x)^r-1) = rx$
 
-- $o(e^x - 1) = x$
+- $\omega(e^x - 1) = x$
 
-- $o(ln(1+x)) = x$
+- $\omega(ln(1+x)) = x$
 
-- $o(\arcsin{x}) = x$
+- $\omega(\arcsin{x}) = x$
 
-- $o(\arctan{x}) = x$
+- $\omega(\arctan{x}) = x$
 
 注意里面的x全部可以被替换为任意无穷小量。
